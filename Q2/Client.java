@@ -8,7 +8,7 @@ public class Client {
         BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
-        output.println(args[2]); // Send mode (PUBLISHER or SUBSCRIBER) to server
+        output.println(args[2]);
 
         if ("PUBLISHER".equals(args[2])) {
             String message;

@@ -34,7 +34,7 @@ public class Server {
                 }
             }
         } catch (Exception e) {
-            // Ignore errors to keep it simple
+            
         }
     }
 }
